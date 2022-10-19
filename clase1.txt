@@ -1,0 +1,19 @@
+NODE
+
+es un entorno de ejecucion de javascript creado en 2009 y esta orientado a servidores
+node js es una de las formas mas rapidas y escalables de correr codigo
+desde el servidor
+
+
+caracteristicas:
+-monohilo con entradas y salidas asincronas. un proceso por cada nucleo del procesador
+
+-motor V8:
+    -Entorno de ejecucion de Js, creado por Google y liberado en el 2008.
+    -Escrito en C++
+    -Convierte el javascript en codigo maquina en lugar de interpretarlo
+
+
+-centrado en modulos
+
+orientado a eventos
