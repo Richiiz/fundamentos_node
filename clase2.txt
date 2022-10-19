@@ -1,0 +1,14 @@
+¿Qué es el Evento Loop?
+Un proceso con un bucle que gestiona, de forma asíncrona, todos los eventos de tu aplicación.
+que significa asincrona? que no va a bloquearse el bucle, que todo se ejecutara aprte y el bucle seguira recibiendo peticiones.
+
+
+la forma de ver un bucle es un circulo que se esta repitiendo constantemente, en este hay varias partes:
+Event Queue: 
+Contiene todos los eventos que se generan por nuestro código (Funciones, peticiones, etc.), estos eventos quedan en una cola que van pasando uno a uno al Event Loop.
+
+Event Loop:
+Se encarga de resolver los eventos ultra rápidos que llegan desde el Event Queue. En caso de no poder resolverse rápido, enviá el evento al Thread Pool.
+
+Thread Pool:
+Se encarga de gestionar los eventos de forma asíncrona. Una vez terminado lo devuelve al Event Loop. El Event Loop vera si lo pasa a Event Queue o no.
