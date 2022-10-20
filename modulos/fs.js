@@ -23,3 +23,4 @@ function borrar(ruta, cb){
 // escribir(__dirname + '/archivo1.txt', 'soy un archivo nuevo hecho a base de un codigo de fs y con el modulo de writeFile :D', console.log);
 // leer(__dirname + '/archivo.txt', console.log)
 borrar(__dirname + '/archivo1.txt', console.log);
+
