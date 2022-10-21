@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function leer(ruta, cb){
-    fs.readFile(ruta, (err, data)=>{
+    fs.readFile(ruta, (err , data)=>{
         cb(data.toString());
     })
 }
