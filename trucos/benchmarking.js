@@ -1,4 +1,5 @@
 // para saber cuanto tarda en ejecutarse nuestro codigo o una parte de este usamos console.time y console.timeEnd
+// Benchmark = prueba de rendimiento o comparativa en inglés
 
 console.time('todo');
 
