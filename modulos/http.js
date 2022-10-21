@@ -7,7 +7,8 @@ function router (req, res){
 
     switch (req.url){
         case '/hola':
-            res.write('hola, que tal');
+            let saludo = hola()
+            res.write('saludo');
             res.end();
             break;
         default:
@@ -25,5 +26,8 @@ function router (req, res){
 //     res.end();
 // }
 
-// console.log("escuchando http en el puerto 3000");
-//dkgnjdf
+function hola(){
+    return 'hola que tal';
+}
+
+console.log("escuchando http en el puerto 3000");
